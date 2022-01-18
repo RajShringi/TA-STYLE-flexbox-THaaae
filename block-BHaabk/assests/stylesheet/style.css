@@ -209,3 +209,18 @@ h2 {
 .gallery img {
   width: 30.33%;
 }
+/* Footer */
+footer {
+  padding: 24px;
+  background: #f78888;
+  color: #fff;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer a {
+  margin-left: 32px;
+  font-size: 18px;
+}
