@@ -1,0 +1,102 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog and Gallery | Flexbox</title>
+    <link rel="stylesheet" href="assests/stylesheet/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <a href="#">
+          <h1 class="logo">Logo</h1>
+        </a>
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="article-section">
+          <article class="article">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              cupiditate, repellendus nihil saepe animi quia aliquid. Aspernatur
+              omnis libero fugit corrupti non obcaecati optio. Repudiandae enim
+              corporis iusto perferendis cum.
+            </p>
+          </article>
+          <div class="article-img">
+            <img
+              src="assests/media/wp9139426-mac-os-big-sur-4k-wallpapers.jpg"
+              alt="mac wallpaper"
+            />
+          </div>
+        </section>
+
+        <section class="gallery">
+          <img
+            src="assests/media/anima-visual-PS_-DwoNUJ4-unsplash.jpg"
+            alt="window"
+          />
+          <img
+            src="assests/media/clay-banks-33BrkP9x8Cw-unsplash.jpg"
+            alt="clay banks"
+          />
+          <img
+            src="assests/media/james-kovin-QtBRQw0rFLE-unsplash.jpg"
+            alt="horse"
+          />
+          <img
+            src="assests/media/mathew-schwartz-7gl8ffzOwZU-unsplash.jpg"
+            alt="rabbit"
+          />
+          <img
+            src="assests/media/susan-wilkinson-YOpB7OifsZQ-unsplash.jpg"
+            alt="water"
+          />
+          <img
+            src="assests/media/tom-hills-BxQ2RosF3A8-unsplash.jpg"
+            alt="dog"
+          />
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer-container">
+        <p>&copy; AltCampus</p>
+        <nav>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
