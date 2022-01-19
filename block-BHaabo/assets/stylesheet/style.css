@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
 html,
 body,
 div,
@@ -126,4 +128,64 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* General */
+body {
+  line-height: 1.5;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header */
+.header {
+  padding: 24px;
+  color: #fff;
+  background: #4f546b;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  width: 80%;
+}
+.nav {
+  width: 20%;
+}
+.user p {
+  font-size: 18px;
+  color: #fff;
+}
+.user-icon {
+  margin-left: 16px;
+  width: 28px;
 }
