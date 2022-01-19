@@ -1,0 +1,101 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Dashboard | Flexbox</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <a href="#" class="logo">LOGO</a>
+        <nav class="nav flex">
+          <a href="#"><img src="assets/icons/bell.svg" alt="bell" /></a>
+          <a class="user flex" href="#">
+            <p>Sarah Jone</p>
+            <img class="user-icon" src="assets/icons/user.svg" alt="user" />
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container flex">
+        <aside class="aside">
+          <nav class="aside-nav">
+            <a class="option" href="#">
+              <img src="assets/icons/dashboard.svg" alt="dashboard" />
+              <p class="option-type">Dashboard</p>
+            </a>
+            <a class="option option-article" href="#">
+              <img src="assets/icons/article.svg" alt="article" />
+              <p class="option-type article">Article</p>
+            </a>
+            <a class="option" href="#">
+              <img src="assets/icons/analytics.svg" alt="analytics" />
+              <p class="option-type">Analytics</p>
+            </a>
+            <a class="option" href="#">
+              <img src="assets/icons/inbox.svg" alt="inbox" />
+              <p class="option-type">Inbox</p>
+            </a>
+            <a class="option" href="#">
+              <img src="assets/icons/setting.svg" alt="setting" />
+              <p class="option-type">Setting</p>
+            </a>
+          </nav>
+          <div class="aside-div">
+            <a class="option" href="#">
+              <img src="assets/icons/log-out.svg" alt="log-out" />
+              <p class="option-type">Log Out</p>
+            </a>
+          </div>
+        </aside>
+        <section class="hero-section">
+          <article class="hero-article">
+            <img class="hero-img" src="assets/media/01.png" alt="01" />
+            <h1 class="hero-heading">Why we are doing AltCampus?</h1>
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              eum nisi ut nemo neque iure, ab, vero eius, quibusdam provident
+              expedita magnam in nostrum ratione maxime aliquam exercitationem
+              aperiam. Tempore!
+            </p>
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              maxime magnam voluptatum excepturi atque sed aspernatur possimus
+              repudiandae corrupti, doloremque a quam iure perferendis
+              architecto cupiditate nesciunt quaerat vel ad.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container flex">
+        <p>&copy; AltCampus</p>
+        <nav>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
